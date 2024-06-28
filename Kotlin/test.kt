@@ -1,17 +1,17 @@
-var peña:String = "Hola mami"
-var peñaBad:String = "Hola roma"
+var dami:String = "Hola profe"
+var peñaBad:String = "Hola profesito"
 fun main (){
-    println(peña.toString())
-    println(peña.compareTo("Hola peña"))
-    if(peña.equals("Hola mami")){
-        println("tequieromami")
+    println(dami.toString())
+    println(dami.compareTo("Hola rocio"))
+    if(dami.equals("Hola gutierrez")){
+        println("que raro")
     }
-    println(peña.get(1))
-    println(peña.hashCode())
-    println(peña.plus(", te quiero"))
-    println(peña.substring(0,3))
-    println(peña.toUpperCase())
-    println(peña.toLowerCase())
-    println(peña.indexOf('a'))
-    println(peña.lastIndexOf('m'))
+    println(dami.get(1))
+    println(dami.hashCode())
+    println(dami.plus(", bien"))
+    println(dami.substring(0,3))
+    println(dami.toUpperCase())
+    println(dami.toLowerCase())
+    println(dami.indexOf('e'))
+    println(dami.lastIndexOf('m'))
 }
